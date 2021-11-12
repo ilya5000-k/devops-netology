@@ -112,7 +112,29 @@ commit 225466bc3e5f35baa5d07197bbc079345b77525e
 
 5.    Найдите коммит в котором была создана функция func providerSource, ее определение в коде выглядит так func providerSource(...) (вместо троеточего перечислены аргументы).
 
+git log -S 'func providerSource' --oneline
+5af1e6234 main: Honor explicit provider_installation CLI config when present
+8c928e835 main: Consult local directories as potential mirrors of providers
+
+
+
+
 6.    Найдите все коммиты в которых была изменена функция globalPluginDirs.
+git log -S 'lobalPluginDirs' --oneline
+35a058fb3 main: configure credentials from the CLI config file
+c0b176109 prevent log output during init
+66ebff90c move some more plugin search path logic to command
+8364383c3 Push plugin discovery down into command package
 
 
 7.    Кто автор функции synchronizedWriters?
+
+git log -S 'synchronizedWriters' --oneline
+bdfea50cc remove unused
+fd4f7eb0b remove prefixed io
+5ac311e2a main: synchronize writes to VT100-faker on Windows
+
+git log 5ac311e2a
+commit 5ac311e2a91e381e2f52234668b49ba670aa0fe5
+Author: Martin Atkins <mart@degeneration.co.uk>
+Date:   Wed May 3 16:25:41 2017 -0700
