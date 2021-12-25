@@ -189,13 +189,13 @@ $ vault write -format=json pki_int_ca/issue/example-dot-com-server \
 
 ```
 
-https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya-4-1.png
+https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya_4_1.png
 
-https://github.com/ilya5000-k/devops-netology/kursovaya_4_2.png
+https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya_4_2.png
 
 5. Установите корневой сертификат созданного центра сертификации в доверенные в хостовой системе.
 
-https://github.com/ilya5000-k/devops-netology/kursovaya_5_1.png
+https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya_5_1.png
 
 6. Установите nginx.
 
@@ -230,7 +230,7 @@ $ cp /etc/vault.d/vagrant.test.com.crt.key /etc/nginx/vagrant.test.com.crt.key
 ```
 8. Откройте в браузере на хосте https адрес страницы, которую обслуживает сервер nginx.
 
-https://github.com/ilya5000-k/devops-netology/kursovaya_8_1.png
+https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya_8_1.png
 
 9. Создайте скрипт, который будет генерировать новый сертификат в vault:
 ```
