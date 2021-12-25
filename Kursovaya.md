@@ -189,7 +189,7 @@ $ vault write -format=json pki_int_ca/issue/example-dot-com-server \
 
 ```
 
-https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya_4_1.png
+https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya-4-1.png
 
 https://github.com/ilya5000-k/devops-netology/kursovaya_4_2.png
 
