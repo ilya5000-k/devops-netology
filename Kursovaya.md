@@ -232,6 +232,8 @@ $ cp /etc/vault.d/vagrant.test.com.crt.key /etc/nginx/vagrant.test.com.crt.key
 
 https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya_8_1.png
 
+https://github.com/ilya5000-k/devops-netology/blob/main/kursovaya_8_2.png
+
 9. Создайте скрипт, который будет генерировать новый сертификат в vault:
 ```
 #!/usr/bin/env bash
