@@ -34,6 +34,17 @@ nginx                1.21      c316d5a335a5   5 days ago          142MB
 nginx                latest    c316d5a335a5   5 days ago          142MB
 
 docker run -d -p 5900:80 ilya5000k/nginx_my:1.21.my
+```
+```
+root@server1:~/data# curl 127.0.0.1:5900
+<html>
+<head>
+Hey, Netology
+</head>
+<body>
+<h1>I’m DevOps Engineer!</h1>
+</body>
+</html>root@server1:~/data#
 
 ```
 
